@@ -1,62 +1,19 @@
-## Fur
+# Start
+This project has been taken from free Hydra jekyll theme
+# Modified notes
+- `bundle exec jekyll serve --host 0.0.0.0 --livereload`
 
-E-commerce template for Jekyll. Browse through a [live demo](https://turquoise-rook.cloudvent.net).
+# Gotchas
+If running on Ruby 3.0 and get the error like `LoadError: cannot load such file -- webrick` , then do the following   (This is ONLY for local - github doesn't require this)
 
-![Fur template screenshot](images/_screenshot.png)
+- `bundle add webrick`
 
-Fur was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-
-Find more templates, themes and Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
-
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/fur-jekyll-template)
-
-## Features
-
-* List product with multiple colours and sizes
-* Take payment online using SnipCart
-* Contact form
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
-
-## Setup
-
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics, Google Maps API key and [SnipCart key](https://snipcart.com/) to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
-
-## Develop
-
-Fur was built with [Jekyll](http://jekyllrb.com/) version 3.4.3, but should support newer versions as well.
-
-Install the dependencies with [Bundler](http://bundler.io/):
-
-~~~bash
-$ bundle install
-~~~
-
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
-
-~~~bash
-$ bundle exec jekyll serve
-~~~
-
-## Editing
-
-Fur is already optimised for adding, updating and removing products and editing the navigation and footer in CloudCannon.
-
-### Posts
-
-* Add, update or remove a post in the *Posts* collection.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
-
-### Navigation
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Navigation* section.
-
-### Footer
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
+# Serving in github pages
+- Add your code to either organization or personal github (zet-go.github.io to techsparks.github.io)
+- Go to zet-go.github.io > Settings > Pages and go with defaults
+- In the custom domain add "www.zet-go.com" 
+- Add CNAME record www -> techsparks.github.io 
+- Sometimes we might need to add A records to point to 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153 e.g. A, @ , 185.199.108.153 in godaddy DNS
+- After this github pages will add a CNAME file to the repo
+- Finally SSL/TLS certificate is provisioned - this might take a while
+- Have patience for about 10-15 and access https://zet-go.com or https://www.zet-go.com

@@ -1,0 +1,30 @@
+---
+title: Our Story
+hero: Our story
+---
+
+<p class="editor-link" style="text-align: center; position: relative;
+    top: -185px;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
+<ul class="staff">
+	{% for person in site.staff_members %}
+		<li>
+			<div class="staff-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
+			<div class="name">{{ person.name }}</div>
+		</li>
+	{% endfor %}
+</ul>
+
+<div class="thirds story-points">
+	<div>
+		<h3 class="editable">Integrity</h3>
+		<p class="editable">Real integrity is doing the right thing, knowing that nobody's going to know whether you did it or not..</p>
+	</div>
+	<div>
+		<h3 class="editable">Collaboration</h3>
+		<p class="editable">Alone we can do so little; together we can do so much.</p>
+	</div>
+	<div>
+		<h3 class="editable">Drive & Empathy</h3>
+		<p class="editable">Creativity is not about thinking outside the box. It is about realizing that there is no box.</p>
+	</div>
+</div>

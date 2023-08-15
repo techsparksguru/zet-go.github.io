@@ -1,0 +1,35 @@
+---
+title: "Our Services"
+hero:
+  title: "What We do"
+  background_image: "/images/bg/home-2.jpg"
+content_blocks:
+  - _bookshop_name: "services"
+    preheading: "Our Services"
+    heading: "We provide a wide range of creative services"
+    sections:
+      - title: "Staff Augmentation"
+        icon: "ti-desktop"
+        content: "We provide nearshore and offshore staff augmentation with T&M costing"
+      - title: "Data Services"
+        icon: "ti-medall"
+        content: "Data Generation, Movement, transformation, insights and maintenance"
+      - title: "AI & ML"
+        icon: "ti-layers"
+        content: "Build & Maintain Models, LLMs, integrations with chatGPT etc."
+      - title: "Consulting"
+        icon: "ti-vector"
+        content: "With our experience, we are able to scope out your requirements for feasibilty and downstream consumption"
+      - title: "App development"
+        icon: "ti-android"
+        content: "We can not only build your MVP, but productionize and help manage the maintenance ecosystem"
+      - title: "BOM/BOT"
+        icon: "ti-pencil-alt"
+        content: "Build-Operate-Start-Maintain or Transfer your entire office to newer geographic regions with 10X cost efficiency"
+  - _bookshop_name: "cta_mini"
+    preheading: "For every type business"
+    heading: "Entrust Your Project to Our Best Team of Professionals"
+    button:
+      text: "Contact"
+      url: "/contact/"
+---

@@ -24,8 +24,8 @@ content_blocks:
   - _bookshop_name: "about"
     preheading: "What We Are"
     heading: "We are problem solvers with decades of experience"
-    subheading: "Build LLM's with Us"
-    content: "ChatGPT is the tip of LLM (large language model) iceberg. We are on the golden cusp between AI and Singularity with LLMs embodying a learnt human. Partner with Us and let us help you build your LLM to stay competitive and relevant."
+    subheading: "Journey with Us"
+    content: "We are a team of consultants, with years of experience ranging from 10 years through 30 years in the tech space. We worked with startups, small-medium enterprises and large enterprises helping solve problems with quality and cost effectiveness"
     background_image: "/images/about/home-8.jpg"
     link:
       text: "Get started"

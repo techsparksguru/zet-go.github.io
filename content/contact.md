@@ -5,11 +5,11 @@ hero:
   background_image: "/images/bg/home-2.jpg"
 content_blocks:
   - _bookshop_name: "contact_form"
-    preheading: "We appreciate your business"
-    heading: "Don’t Hesitate to contact with us for any kind of information"
+    preheading: ""
+    heading: "CONTACT"
     form_heading: "Contact Form"
-    address: "Holly Springs, North Carolina, USA"
-    email: hello@automationpractice.com 
+    address: "North Carolina, USA & India"
+    email: hello@zet-go.com
     phone: +1 919.491.1239
     linkedin: pradeepmacharla
   # - _bookshop_name: "map"

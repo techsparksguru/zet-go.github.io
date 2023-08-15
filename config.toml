@@ -1,6 +1,6 @@
 baseURL = 'http://example.org'
 languageCode = 'en-us'
-title = "Singular Solutions"
+title = "ZetGo Solutions"
 Paginate = 20
 PaginatePath = "/"
 summaryLength = 10

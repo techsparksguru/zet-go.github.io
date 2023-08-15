@@ -15,5 +15,5 @@ content_blocks:
   # - _bookshop_name: "map"
   #   latitude: 35.61396
   #   longitude: -78.87697
-  #   name: "SingularSol"
+  #   name: "ZetGo"
 ---

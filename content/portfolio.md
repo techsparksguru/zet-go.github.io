@@ -1,12 +1,12 @@
 ---
-title: "Latest works"
+title: "Projects"
 hero:
   title: "Portfolio"
   background_image: "/images/bg/home-2.jpg"
 content_blocks:
   - _bookshop_name: "portfolio"
-    preheading: "Our works"
-    heading: "We have done lots of works, lets check some"
+    preheading: "PROJECTS"
+    heading: "Few Projects that we have executed end-end"
     projects:
       - name: "Mobile Coupons"
         image_path: "/images/portfolio/1.jpg"

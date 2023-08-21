@@ -23,7 +23,7 @@ content_blocks:
       - name: "Resume builder"
         image_path: "/images/portfolio/5.jpg"
         type: "Web Application"
-      - name: "Email Marketing"
+      - name: "Tech Stack"
         image_path: "/images/portfolio/6.jpg"
-        type: "Marketing"
+        type: "Tech"
 ---

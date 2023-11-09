@@ -46,8 +46,4 @@ content_blocks:
         image: "/images/team/pradeep-1.jpg"
         role: "Founder"
         linkedin: "pradeepmacharla"
-      - name: "Bhagawan Gnanapa"
-        image: "/images/team/bhagawan.jpg"
-        role: "Founder"
-        linkedin: "bhagawan-gnanapa-0b9bb93"
 ---
